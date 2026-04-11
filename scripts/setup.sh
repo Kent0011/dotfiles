@@ -60,4 +60,8 @@ symlink "$DOTFILES_DIR/editor/zed/keymap.json"   "$ZED_DIR/keymap.json"
 symlink "$DOTFILES_DIR/editor/zed/tasks.json"    "$ZED_DIR/tasks.json"
 
 echo ""
+echo "[ghostty]"
+symlink "$DOTFILES_DIR/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
+
+echo ""
 echo "Done."

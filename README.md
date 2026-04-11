@@ -26,6 +26,8 @@ dotfiles/
 │       ├── settings.json
 │       ├── keymap.json
 │       └── tasks.json
+├── ghostty/
+│   └── config
 ├── scripts/
 │   └── setup.sh
 └── makefile
@@ -57,3 +59,4 @@ make setup
 | `editor/zed/settings.json` | `~/.config/zed/settings.json` |
 | `editor/zed/keymap.json` | `~/.config/zed/keymap.json` |
 | `editor/zed/tasks.json` | `~/.config/zed/tasks.json` |
+| `ghostty/config` | `~/Library/Application Support/com.mitchellh.ghostty/config` |
