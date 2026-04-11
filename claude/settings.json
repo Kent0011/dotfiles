@@ -5,6 +5,15 @@
       "Read(**/.env.*)",
       "Read(**/secrets/**)"
     ],
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(pwd:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git merge-base:*)"
+    ],
     "defaultMode": "acceptEdits"
   },
   "enabledPlugins": {
