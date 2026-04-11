@@ -50,7 +50,7 @@ symlink "$DOTFILES_DIR/claude/settings.json"  "$HOME/.claude/settings.json"
 echo ""
 echo "[vscode]"
 VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
-symlink "$DOTFILES_DIR/editor/vscode/setting.json" "$VSCODE_USER_DIR/settings.json"
+symlink "$DOTFILES_DIR/editor/vscode/settings.json" "$VSCODE_USER_DIR/settings.json"
 
 echo ""
 echo "[zed]"
