@@ -85,5 +85,6 @@
     "vim.useSystemClipboard": true,
 
     // System
-    "terminal.external.osxExec": "ghostty.app"
+    "terminal.external.osxExec": "ghostty.app",
+    "git.confirmSync": false
 }
