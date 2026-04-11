@@ -42,6 +42,16 @@ make setup
 各ファイルを適切な場所へシンボリックリンクで配置します。
 既存のファイルは `.bak` にリネームされてバックアップされます。
 
+## homebrew
+
+インストールするパッケージ
+
+- gh
+- lazygit
+- starship
+- zsh-autosuggestions
+- zsh-syntax-highlighting
+
 ## シンボリックリンク一覧
 
 | リポジトリ内のファイル | リンク先 |

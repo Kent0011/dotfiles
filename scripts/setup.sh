@@ -21,6 +21,23 @@ symlink() {
 echo "Dotfiles: $DOTFILES_DIR"
 echo ""
 
+echo "[homebrew]"
+BREW_PACKAGES=(
+  gh
+  lazygit
+  starship
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
+for pkg in "${BREW_PACKAGES[@]}"; do
+  if brew list "$pkg" &>/dev/null; then
+    echo "  already installed: $pkg"
+  else
+    brew install "$pkg"
+  fi
+done
+echo ""
+
 echo "[shell]"
 symlink "$DOTFILES_DIR/shell/.zshrc"       "$HOME/.zshrc"
 symlink "$DOTFILES_DIR/shell/.bashrc"      "$HOME/.bashrc"
