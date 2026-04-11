@@ -1,0 +1,2 @@
+playwright: npx @playwright/mcp@latest
+notion: https://mcp.notion.com/mcp (HTTP)
