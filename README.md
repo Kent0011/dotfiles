@@ -20,8 +20,12 @@ dotfiles/
 │   ├── CLAUDE.md
 │   └── settings.json
 ├── editor/
-│   └── vscode/
-│       └── setting.json
+│   ├── vscode/
+│   │   └── setting.json
+│   └── zed/
+│       ├── settings.json
+│       ├── keymap.json
+│       └── tasks.json
 ├── scripts/
 │   └── setup.sh
 └── makefile
@@ -50,3 +54,6 @@ make setup
 | `claude/CLAUDE.md` | `~/.claude/CLAUDE.md` |
 | `claude/settings.json` | `~/.claude/settings.json` |
 | `editor/vscode/setting.json` | `~/Library/Application Support/Code/User/settings.json` |
+| `editor/zed/settings.json` | `~/.config/zed/settings.json` |
+| `editor/zed/keymap.json` | `~/.config/zed/keymap.json` |
+| `editor/zed/tasks.json` | `~/.config/zed/tasks.json` |

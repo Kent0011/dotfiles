@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Lazygit",            // タスクの名前
+    "command": "lazygit",          // 実行するコマンド
+    "use_new_terminal": true,      // 新しいターミナルタブで開くか
+    "allow_concurrent_runs": false // 同時に複数起動しない
+  }
+]

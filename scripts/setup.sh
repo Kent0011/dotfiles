@@ -53,4 +53,11 @@ VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
 symlink "$DOTFILES_DIR/editor/vscode/setting.json" "$VSCODE_USER_DIR/settings.json"
 
 echo ""
+echo "[zed]"
+ZED_DIR="$HOME/.config/zed"
+symlink "$DOTFILES_DIR/editor/zed/settings.json" "$ZED_DIR/settings.json"
+symlink "$DOTFILES_DIR/editor/zed/keymap.json"   "$ZED_DIR/keymap.json"
+symlink "$DOTFILES_DIR/editor/zed/tasks.json"    "$ZED_DIR/tasks.json"
+
+echo ""
 echo "Done."
