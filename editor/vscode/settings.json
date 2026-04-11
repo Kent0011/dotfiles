@@ -89,10 +89,13 @@
     // System
     "terminal.external.osxExec": "ghostty.app",
     "git.confirmSync": false,
+
+    // AI
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
         "markdown": true,
         "scminput": false
-    }
+    },
+    "claudeCode.preferredLocation": "sidebar"
 }
