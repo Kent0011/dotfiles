@@ -1,0 +1,14 @@
+[user]
+	name = Kento Yamamoto
+	email = key7135g@gmail.com
+[color]
+	ui = true
+[core]
+	editor = code --wait
+[merge]
+	tool = code --wait "$MERGED"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

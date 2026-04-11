@@ -22,8 +22,21 @@ echo "Dotfiles: $DOTFILES_DIR"
 echo ""
 
 echo "[shell]"
-symlink "$DOTFILES_DIR/shell/.zshrc"  "$HOME/.zshrc"
-symlink "$DOTFILES_DIR/shell/.bashrc" "$HOME/.bashrc"
+symlink "$DOTFILES_DIR/shell/.zshrc"       "$HOME/.zshrc"
+symlink "$DOTFILES_DIR/shell/.bashrc"      "$HOME/.bashrc"
+symlink "$DOTFILES_DIR/shell/starship.toml" "$HOME/.config/starship.toml"
+
+echo ""
+echo "[git]"
+symlink "$DOTFILES_DIR/git/.gitconfig" "$HOME/.gitconfig"
+
+echo ""
+echo "[gh]"
+symlink "$DOTFILES_DIR/gh/config.yml" "$HOME/.config/gh/config.yml"
+
+echo ""
+echo "[vim]"
+symlink "$DOTFILES_DIR/vim/.vimrc" "$HOME/.vimrc"
 
 echo ""
 echo "[ssh]"
