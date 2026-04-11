@@ -1,0 +1,14 @@
+{
+  "autoConnectIde": true,
+  "editorMode": "vim",
+  "showTurnDuration": true,
+  "terminalProgressBarEnabled": true,
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/secrets/**)"
+    ]
+  }
+}

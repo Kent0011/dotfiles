@@ -1,0 +1,8 @@
+Host pifront
+  Hostname pifront.eccse.kobe-u.ac.jp
+  User t2115058
+  IdentityFile ~/.ssh/id_rsa_para
+Host ec2
+  Hostname 35.78.232.76
+  User ec2-user
+  IdentityFile ~/.ssh/id_ed25519
