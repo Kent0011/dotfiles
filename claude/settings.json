@@ -1,23 +1,19 @@
 {
-  "autoConnectIde": true,
-  "editorMode": "vim",
-  "showTurnDuration": true,
-  "terminalProgressBarEnabled": true,
   "permissions": {
-    "defaultMode": "acceptEdits",
-    "allow": [
-      "Bash(cd:*)",
-      "Bash(pwd:*)",
-      "Bash(cat:*)",
-      "Bash(ls:*)",
-      "Bash(git status:*)",
-      "Bash(git diff:*)",
-      "Bash(git merge-base:*)"
-    ],
     "deny": [
       "Read(**/.env)",
       "Read(**/.env.*)",
       "Read(**/secrets/**)"
-    ]
-  }
+    ],
+    "defaultMode": "acceptEdits"
+  },
+  "enabledPlugins": {
+    "code-review@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true
+  },
+  "autoConnectIde": true,
+  "editorMode": "vim",
+  "showTurnDuration": true,
+  "terminalProgressBarEnabled": true
 }
