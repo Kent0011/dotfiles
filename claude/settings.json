@@ -49,5 +49,6 @@
   "autoConnectIde": true,
   "editorMode": "vim",
   "showTurnDuration": true,
-  "terminalProgressBarEnabled": true
+  "terminalProgressBarEnabled": true,
+  "model": "opus"
 }
