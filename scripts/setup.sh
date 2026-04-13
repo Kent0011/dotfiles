@@ -63,6 +63,7 @@ echo ""
 echo "[claude]"
 symlink "$DOTFILES_DIR/claude/CLAUDE.md"     "$HOME/.claude/CLAUDE.md"
 symlink "$DOTFILES_DIR/claude/settings.json"  "$HOME/.claude/settings.json"
+symlink "$DOTFILES_DIR/claude/skills"         "$HOME/.claude/skills"
 
 echo ""
 echo "[vscode]"

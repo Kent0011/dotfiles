@@ -18,7 +18,8 @@ dotfiles/
 │   └── config
 ├── claude/
 │   ├── CLAUDE.md
-│   └── settings.json
+│   ├── settings.json
+│   └── skills/
 ├── editor/
 │   ├── vscode/
 │   │   └── settings.json
@@ -65,6 +66,7 @@ make setup
 | `ssh/config` | `~/.ssh/config` |
 | `claude/CLAUDE.md` | `~/.claude/CLAUDE.md` |
 | `claude/settings.json` | `~/.claude/settings.json` |
+| `claude/skills/` | `~/.claude/skills` |
 | `editor/vscode/settings.json` | `~/Library/Application Support/Code/User/settings.json` |
 | `editor/zed/settings.json` | `~/.config/zed/settings.json` |
 | `editor/zed/keymap.json` | `~/.config/zed/keymap.json` |
