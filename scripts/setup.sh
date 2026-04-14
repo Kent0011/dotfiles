@@ -28,6 +28,7 @@ BREW_PACKAGES=(
   starship
   zsh-autosuggestions
   zsh-syntax-highlighting
+  --cask font-jetbrains-mono-nerd-font
 )
 for pkg in "${BREW_PACKAGES[@]}"; do
   if brew list "$pkg" &>/dev/null; then

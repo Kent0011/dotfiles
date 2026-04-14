@@ -1,10 +1,5 @@
 {
   "permissions": {
-    "deny": [
-      "Read(**/.env)",
-      "Read(**/.env.*)",
-      "Read(**/secrets/**)"
-    ],
     "allow": [
       "Bash(cd:*)",
       "Bash(pwd:*)",
@@ -39,8 +34,14 @@
       "Bash(gh gist list:*)",
       "Bash(gh gist view:*)"
     ],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/secrets/**)"
+    ],
     "defaultMode": "acceptEdits"
   },
+  "model": "opus",
   "enabledPlugins": {
     "code-review@claude-plugins-official": true,
     "github@claude-plugins-official": true,
@@ -49,6 +50,5 @@
   "autoConnectIde": true,
   "editorMode": "vim",
   "showTurnDuration": true,
-  "terminalProgressBarEnabled": true,
-  "model": "opus"
+  "terminalProgressBarEnabled": true
 }
