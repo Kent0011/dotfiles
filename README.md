@@ -52,6 +52,7 @@ make setup
 - starship
 - zsh-autosuggestions
 - zsh-syntax-highlighting
+- font-jetbrains-mono-nerd-font (cask)
 
 ## シンボリックリンク一覧
 
