@@ -57,6 +57,7 @@
 
     // Python
     "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnType": true
     },
     "python.defaultInterpreterPath": ".venv/bin/python",
