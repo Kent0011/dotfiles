@@ -9,8 +9,8 @@
 {
   "agent_servers": {
     "claude-acp": {
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "vim_mode": true,
   "buffer_font_family": "JetBrainsMono Nerd Font",
@@ -19,19 +19,19 @@
   "format_on_save": "on",
   "indent_guides": {
     "background_coloring": "indent_aware",
-    "coloring": "fixed"
+    "coloring": "fixed",
   },
   "icon_theme": "Material Icon Theme",
   "git_panel": {
-    "tree_view": false
+    "tree_view": false,
   },
   "session": {
-    "trust_all_worktrees": true
+    "trust_all_worktrees": true,
   },
   "base_keymap": "VSCode",
   "cursor_shape": "bar",
-  "ui_font_size": 16.0,
-  "buffer_font_size": 14.0,
+  "ui_font_size": 14.0,
+  "buffer_font_size": 12.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
