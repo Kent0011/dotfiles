@@ -99,5 +99,5 @@
         "markdown": true,
         "scminput": false
     },
-    "claudeCode.preferredLocation": "sidebar"
+    "claudeCode.preferredLocation": "panel"
 }
