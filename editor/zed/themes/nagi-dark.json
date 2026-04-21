@@ -138,7 +138,7 @@
             "color": "#f7ecb5"
           },
           "property": {
-            "color": "#9EFFC2FF"
+            "color": "#85FFE4FF"
           },
           "namespace": {
             "color": "#D396FFFF"
@@ -169,7 +169,7 @@
             "color": "#00C3FFFF"
           },
           "label": {
-            "color": "#9EFFC2FF"
+            "color": "#85FFE4FF"
           },
           "embedded": {
             "color": "#D396FFFF"
@@ -213,10 +213,7 @@
             "selection": "#dfe6e94d"
           }
         ],
-        "accents": [
-          "#2c94d9",
-          "#2c94d9"
-        ],
+        "accents": ["#2c94d9", "#2c94d9"],
         "hint": "#ADADADAB",
         "panel.focused_border": "#3e4452",
         "panel.overlay_background": "#22262b",
