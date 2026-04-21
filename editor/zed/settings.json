@@ -19,7 +19,7 @@
   "remove_trailing_whitespace_on_save": true,
   "format_on_save": "on",
   "indent_guides": {
-    "background_coloring": "disabled",
+    "background_coloring": "indent_aware",
     "coloring": "indent_aware",
   },
   "icon_theme": "Material Icon Theme",

@@ -32,4 +32,9 @@
       "cmd-4": "outline_panel::Toggle",
     },
   },
+  {
+    "bindings": {
+      "cmd-g": "git_graph::Open"
+    }
+  }
 ]
