@@ -213,7 +213,7 @@
             "selection": "#dfe6e94d"
           }
         ],
-        "accents": ["#55b1fc", "#e183fd", "#ccd74e"],
+        "accents": ["#55b1fc", "#e183fd", "#ccd74e", "#80F0C0"],
         "hint": "#ADADADAB",
         "panel.focused_border": "#3e4452",
         "panel.overlay_background": "#22262b",
