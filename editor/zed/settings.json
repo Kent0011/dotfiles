@@ -12,7 +12,7 @@
       "type": "registry",
     },
   },
-  "vim_mode": true,
+  "vim_mode": false,
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "ensure_final_newline_on_save": true,
   "remove_trailing_whitespace_on_save": true,
@@ -35,6 +35,6 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark",
+    "dark": "Nagi Dark",
   },
 }

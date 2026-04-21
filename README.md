@@ -26,7 +26,9 @@ dotfiles/
 │   └── zed/
 │       ├── settings.json
 │       ├── keymap.json
-│       └── tasks.json
+│       ├── tasks.json
+│       └── themes/
+│           └── nagi-dark.json
 ├── ghostty/
 │   └── config
 ├── scripts/
@@ -72,4 +74,5 @@ make setup
 | `editor/zed/settings.json` | `~/.config/zed/settings.json` |
 | `editor/zed/keymap.json` | `~/.config/zed/keymap.json` |
 | `editor/zed/tasks.json` | `~/.config/zed/tasks.json` |
+| `editor/zed/themes/nagi-dark.json` | `~/.config/zed/themes/nagi-dark.json` |
 | `ghostty/config` | `~/Library/Application Support/com.mitchellh.ghostty/config` |
