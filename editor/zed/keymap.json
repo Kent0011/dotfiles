@@ -34,7 +34,17 @@
   },
   {
     "bindings": {
-      "cmd-g": "git_graph::Open"
-    }
-  }
+      "cmd-g": "git_graph::Open",
+    },
+  },
+  {
+    "bindings": {
+      "alt-shift-r": "workspace::Reload",
+    },
+  },
+  {
+    "bindings": {
+      "alt-r": "editor::ReloadFile",
+    },
+  },
 ]
