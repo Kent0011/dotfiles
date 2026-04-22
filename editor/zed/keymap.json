@@ -47,4 +47,27 @@
       "alt-r": "editor::ReloadFile",
     },
   },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-w": "workspace::CloseActiveDock",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-w": "workspace::CloseActiveDock",
+    },
+  },
+  {
+    "context": "Global",
+    "bindings": {
+      "cmd-w": [
+        "pane::CloseActiveItem",
+        {
+          "close_pinned": false,
+        },
+      ],
+    },
+  },
 ]
