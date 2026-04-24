@@ -229,7 +229,8 @@
         "info": "#348FCFFF",
         "info.background": "#2FB1FA14",
         "border.selected": "#252C33FF",
-        "border.disabled": "#252C33FF"
+        "border.disabled": "#252C33FF",
+        "scrollbar.track.border": "#00000000"
       }
     }
   ],
