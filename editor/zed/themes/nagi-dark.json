@@ -65,7 +65,7 @@
         "background": "#101823",
         "text.disabled": "#ADADADFF",
         "border.variant": "#242c37",
-        "border.transparent": "#181a1f00",
+        "border.transparent": "#252C33FF",
         "element.active": "#393c45ff",
         "element.disabled": "#00589d",
         "ghost_element.hover": "#abb2bf1a",
@@ -213,7 +213,12 @@
             "selection": "#dfe6e94d"
           }
         ],
-        "accents": ["#55b1fc", "#e183fd", "#ccd74e", "#80F0C0"],
+        "accents": [
+          "#55b1fc",
+          "#e183fd",
+          "#ccd74e",
+          "#80F0C0"
+        ],
         "hint": "#ADADADAB",
         "panel.focused_border": "#3e4452",
         "panel.overlay_background": "#22262b",
@@ -224,7 +229,12 @@
         "element.background": "#101823",
         "minimap.thumb.background": "#38404b",
         "minimap.thumb.hover_background": "#4c545f",
-        "minimap.thumb.active_background": "#606873"
+        "minimap.thumb.active_background": "#606873",
+        "hint.background": "#A1A1A114",
+        "info": "#348FCFFF",
+        "info.background": "#2FB1FA14",
+        "border.selected": "#252C33FF",
+        "border.disabled": "#252C33FF"
       }
     }
   ],
