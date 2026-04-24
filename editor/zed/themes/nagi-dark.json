@@ -53,7 +53,7 @@
         "version_control.added": "#73b4c3",
         "version_control.deleted": "#9A353D",
         "version_control.word_added": "#02993e33",
-        "border": "#252C33FF",
+        "border": "#283040",
         "status_bar.background": "#2c94d9",
         "title_bar.background": "#002d4b",
         "title_bar.inactive_background": "#282c34",
@@ -213,12 +213,7 @@
             "selection": "#dfe6e94d"
           }
         ],
-        "accents": [
-          "#55b1fc",
-          "#e183fd",
-          "#ccd74e",
-          "#80F0C0"
-        ],
+        "accents": ["#55b1fc", "#e183fd", "#ccd74e", "#80F0C0"],
         "hint": "#ADADADAB",
         "panel.focused_border": "#3e4452",
         "panel.overlay_background": "#22262b",
