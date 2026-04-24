@@ -7,17 +7,29 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "project_panel": {
+    "dock": "left",
     "git_status_indicator": true,
   },
   "close_on_file_delete": true,
   "colorize_brackets": true,
   "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    },
     "claude-acp": {
       "type": "registry",
     },
   },
   "agent": {
+    "sidebar_side": "right",
+    "dock": "right",
     "use_modifier_to_send": true,
   },
   "vim_mode": true,
@@ -31,6 +43,7 @@
   },
   "icon_theme": "Material Icon Theme",
   "git_panel": {
+    "dock": "left",
     "collapse_untracked_diff": false,
     "file_icons": true,
     "diff_stats": true,
