@@ -67,6 +67,11 @@ symlink "$DOTFILES_DIR/claude/settings.json"  "$HOME/.claude/settings.json"
 symlink "$DOTFILES_DIR/claude/skills"         "$HOME/.claude/skills"
 
 echo ""
+echo "[codex]"
+symlink "$DOTFILES_DIR/claude/CLAUDE.md" "$HOME/.codex/AGENTS.md"
+symlink "$DOTFILES_DIR/claude/skills"    "$HOME/.codex/skills"
+
+echo ""
 echo "[vscode]"
 VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
 symlink "$DOTFILES_DIR/editor/vscode/settings.json" "$VSCODE_USER_DIR/settings.json"
