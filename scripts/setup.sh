@@ -69,7 +69,19 @@ symlink "$DOTFILES_DIR/claude/skills"         "$HOME/.claude/skills"
 echo ""
 echo "[codex]"
 symlink "$DOTFILES_DIR/claude/CLAUDE.md" "$HOME/.codex/AGENTS.md"
-symlink "$DOTFILES_DIR/claude/skills"    "$HOME/.codex/skills"
+
+if [ -L "$HOME/.codex/skills" ]; then
+  rm "$HOME/.codex/skills"
+fi
+mkdir -p "$HOME/.codex/skills"
+for skill in "$DOTFILES_DIR/claude/skills"/*/; do
+  [ -d "$skill" ] || continue
+  name="$(basename "$skill")"
+  dst="$HOME/.codex/skills/$name"
+  rm -rf "$dst"
+  cp -R "$skill" "$dst"
+  echo "  copied: $dst <- $skill"
+done
 
 echo ""
 echo "[vscode]"
