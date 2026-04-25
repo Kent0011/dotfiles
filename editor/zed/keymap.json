@@ -70,4 +70,22 @@
       ],
     },
   },
+  {
+    "bindings": {
+      "cmd-`": "workspace::NewCenterTerminal",
+    },
+  },
+  {
+    "bindings": {
+      "cmd-shift-`": ["task::Spawn", { "task_name": "claude code" }],
+    },
+  },
+  {
+    "bindings": {
+      "cmd-\\": [
+        "workspace::SendKeystrokes",
+        "cmd-\\ cmd-shift-` cmd-option-t",
+      ],
+    },
+  },
 ]
