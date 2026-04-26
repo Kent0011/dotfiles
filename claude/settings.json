@@ -34,17 +34,20 @@
       "Bash(gh gist list:*)",
       "Bash(gh gist view:*)"
     ],
-    "deny": ["Read(**/.env)", "Read(**/.env.*)", "Read(**/secrets/**)"],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/secrets/**)"
+    ],
     "defaultMode": "acceptEdits"
   },
-  "model": "opus",
   "enabledPlugins": {
     "code-review@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true
   },
-  "autoConnectIde": true,
+  "effortLevel": "high",
   "editorMode": "vim",
   "showTurnDuration": true,
   "terminalProgressBarEnabled": true,
-  "effortLevel": "high"
+  "autoConnectIde": true
 }
