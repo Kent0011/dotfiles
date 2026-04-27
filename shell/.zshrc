@@ -1,5 +1,5 @@
 #### Homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 #### starship
 eval "$(starship init zsh)"
@@ -20,7 +20,7 @@ bindkey "^[[B" down-line-or-beginning-search
 WORDCHARS=''
 
 #### Apply hidden sources (ignored by Git; e.g., secrets or machine-specific)
-#### It recursively reads all .zsh files in the hidden/ 
+#### It recursively reads all .zsh files in the hidden/
 HIDDEN_ALIASES_DIR="$HOME/.config/zsh/hidden"
 if [ -d "$HIDDEN_ALIASES_DIR" ]; then
   for f in "$HIDDEN_ALIASES_DIR"/*.zsh(N); do
@@ -31,10 +31,7 @@ if [ -d "$HIDDEN_ALIASES_DIR" ]; then
 fi
 
 ## PATH
-export PATH="/opt/homebrew/bin:$PATH"
-export PATH="/opt/homebrew/sbin:$PATH"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 ## Command auto-completion

@@ -6,86 +6,86 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
-  {
-    "context": "Workspace",
-    "bindings": {
-      "shift shift": "file_finder::Toggle",
+    {
+        "context": "Workspace",
+        "bindings": {
+            "shift shift": "file_finder::Toggle"
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-2": "git_panel::Toggle",
+    {
+        "bindings": {
+            "ctrl-2": "git_panel::Toggle"
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-1": "project_panel::Toggle",
+    {
+        "bindings": {
+            "ctrl-1": "project_panel::Toggle"
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-3": "collab_panel::Toggle",
+    {
+        "bindings": {
+            "ctrl-3": "collab_panel::Toggle"
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-4": "outline_panel::Toggle",
+    {
+        "bindings": {
+            "ctrl-4": "outline_panel::Toggle"
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-g": "git_graph::Open",
+    {
+        "bindings": {
+            "ctrl-g": "git_graph::Open"
+        }
     },
-  },
-  {
-    "bindings": {
-      "alt-shift-r": "workspace::Reload",
+    {
+        "bindings": {
+            "alt-shift-r": "workspace::Reload"
+        }
     },
-  },
-  {
-    "bindings": {
-      "alt-r": "editor::ReloadFile",
+    {
+        "bindings": {
+            "alt-r": "editor::ReloadFile"
+        }
     },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "alt-w": "workspace::CloseActiveDock",
+    {
+        "context": "Workspace",
+        "bindings": {
+            "alt-w": "workspace::CloseActiveDock"
+        }
     },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "cmd-w": "workspace::CloseActiveDock",
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-w": "workspace::CloseActiveDock"
+        }
     },
-  },
-  {
-    "context": "Global",
-    "bindings": {
-      "cmd-w": [
-        "pane::CloseActiveItem",
-        {
-          "close_pinned": false,
-        },
-      ],
+    {
+        "context": "Global",
+        "bindings": {
+            "ctrl-w": [
+                "pane::CloseActiveItem",
+                {
+                    "close_pinned": false
+                }
+            ]
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-`": "workspace::NewCenterTerminal",
+    {
+        "bindings": {
+            "ctrl-`": "workspace::NewCenterTerminal"
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-shift-`": ["task::Spawn", { "task_name": "claude code" }],
+    {
+        "bindings": {
+            "ctrl-shift-`": ["task::Spawn", { "task_name": "claude code" }]
+        }
     },
-  },
-  {
-    "bindings": {
-      "cmd-\\": [
-        "workspace::SendKeystrokes",
-        "cmd-\\ cmd-shift-` cmd-option-t",
-      ],
-    },
-  },
+    {
+        "bindings": {
+            "ctrl-\\": [
+                "workspace::SendKeystrokes",
+                "ctrl-\\ ctrl-shift-` ctrl-option-t"
+            ]
+        }
+    }
 ]

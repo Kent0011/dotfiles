@@ -34,7 +34,11 @@
       "Bash(gh gist list:*)",
       "Bash(gh gist view:*)"
     ],
-    "deny": ["Read(**/.env)", "Read(**/.env.*)", "Read(**/secrets/**)"],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/secrets/**)"
+    ],
     "defaultMode": "acceptEdits"
   },
   "enabledPlugins": {
@@ -44,5 +48,6 @@
   "effortLevel": "high",
   "showTurnDuration": true,
   "terminalProgressBarEnabled": true,
-  "autoConnectIde": true
+  "autoConnectIde": true,
+  "model": "opus"
 }
