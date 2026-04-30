@@ -88,4 +88,10 @@
       ],
     },
   },
+  {
+    "context": "Welcome",
+    "bindings": {
+      "cmd-g": "git::Clone",
+    },
+  },
 ]
