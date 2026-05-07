@@ -37,6 +37,7 @@
   "ensure_final_newline_on_save": true,
   "remove_trailing_whitespace_on_save": true,
   "format_on_save": "on",
+  "code_lens": "on",
   "indent_guides": {
     "background_coloring": "indent_aware",
     "coloring": "indent_aware",
