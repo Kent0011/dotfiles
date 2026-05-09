@@ -1,25 +1,5 @@
-Host pifront
-  Hostname pifront.eccse.kobe-u.ac.jp
-  User t2115058
-  IdentityFile ~/.ssh/id_rsa_para
-Host ec2
-  Hostname 35.78.232.76
-  User ec2-user
-  IdentityFile ~/.ssh/id_ed25519
-Host ocnk
-    HostName daisy.contact.co.jp
-    User ocnk
 Host github.com
     AddKeysToAgent yes
     IdentityFile ~/.ssh/id_ed25519
-Host garitto
-    HostName test.garitto.com
-    User garitto
-Host cassandra
-    HostName test.garitto.com
-    User cassandra
-Host carzy-net
-    HostName bambi.contact.co.jp
-    User carzy-net
 Host *
   SetEnv TERM=xterm-256color
