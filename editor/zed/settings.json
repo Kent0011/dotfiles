@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diff_view_style": "unified",
+  "cli_default_open_behavior": "existing_window",
   "outline_panel": {
     "dock": "left",
   },
@@ -36,7 +38,7 @@
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "ensure_final_newline_on_save": true,
   "remove_trailing_whitespace_on_save": true,
-  "format_on_save": "on",
+  "format_on_save": "off",
   "code_lens": "on",
   "indent_guides": {
     "background_coloring": "indent_aware",

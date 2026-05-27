@@ -3,6 +3,8 @@
 - Respond in Japanese.
 - Keep responses concise and direct.
 - Prefer editing existing files over creating new ones.
+- トークンを十分に利用し、アウトプットの品質を最優先してください。
+- トークンを節約する必要はありません
 
 # Coding
 
@@ -18,3 +20,4 @@
   - Claude in Chromeに接続
   - 任意のwebサイトにアクセス
 - ただし、専用のプラグインやmcp, cliが利用できる場合、そちらを優先してください
+- PRを作成する場合は、指示がない限りDraftで作成してください。main/master以外から生えているブランチはマージ先をどうするか確認してから作成してください
