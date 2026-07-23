@@ -41,13 +41,30 @@
     ],
     "defaultMode": "acceptEdits"
   },
+  "model": "opus",
   "enabledPlugins": {
     "code-review@claude-plugins-official": true,
-    "skill-creator@claude-plugins-official": true
+    "skill-creator@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "microsoft-docs@claude-plugins-official": true,
+    "document-skills@anthropic-agent-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    }
   },
   "effortLevel": "high",
+  "tui": "fullscreen",
   "showTurnDuration": true,
   "terminalProgressBarEnabled": true,
-  "autoConnectIde": true,
-  "model": "opus"
+  "autoConnectIde": true
 }
