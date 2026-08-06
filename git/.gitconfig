@@ -14,3 +14,7 @@
 	required = true
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[url "git@github.com:simply-app/simply-sdk-go"]
+	insteadOf = https://github.com/simply-app/simply-sdk-go
+[url "git@github.com:JUMPTOON/"]
+	insteadOf = https://github.com/JUMPTOON/
