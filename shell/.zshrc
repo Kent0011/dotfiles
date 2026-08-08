@@ -56,3 +56,6 @@ alias gb="git branch"
 alias c="claude"
 alias d="docker"
 alias k="kubectl"
+
+## kubectl completion
+source <(kubectl completion zsh)
