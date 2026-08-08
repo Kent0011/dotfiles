@@ -28,6 +28,7 @@ BREW_PACKAGES=(
   starship
   zsh-autosuggestions
   zsh-syntax-highlighting
+  derailed/k9s/k9s
   --cask font-jetbrains-mono-nerd-font
 )
 for pkg in "${BREW_PACKAGES[@]}"; do
