@@ -45,7 +45,8 @@
     "code-review@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true,
     "commit-commands@claude-plugins-official": true,
-    "argocd-migration@cloud-platform-claude-code-plugins": true
+    "argocd-migration@cloud-platform-claude-code-plugins": true,
+    "gopls-lsp@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "cloud-platform-claude-code-plugins": {

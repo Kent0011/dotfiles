@@ -36,6 +36,7 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/share/google-cloud-sdk/bin:$PATH"
 
 ## Command auto-completion
 autoload -Uz compinit
@@ -56,6 +57,7 @@ alias gb="git branch"
 alias c="claude"
 alias d="docker"
 alias k="kubectl"
+alias tf="terraform"
 
 ## kubectl completion
 source <(kubectl completion zsh)
