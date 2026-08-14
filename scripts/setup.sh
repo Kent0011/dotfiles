@@ -59,6 +59,14 @@ symlink "$DOTFILES_DIR/vim/.vimrc" "$HOME/.vimrc"
 
 echo ""
 echo "[ssh]"
+if [ ! -f "$HOME/.ssh/id_ed25519.pub" ]; then
+  mkdir -p "$HOME/.ssh"
+  chmod 700 "$HOME/.ssh"
+  ssh-keygen -t ed25519 -C "$(whoami)@$(hostname)" -f "$HOME/.ssh/id_ed25519" -N ""
+  echo "  generated: $HOME/.ssh/id_ed25519"
+else
+  echo "  already exists: $HOME/.ssh/id_ed25519.pub"
+fi
 symlink "$DOTFILES_DIR/ssh/config" "$HOME/.ssh/config"
 
 echo ""
