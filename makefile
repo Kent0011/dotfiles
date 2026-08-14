@@ -1,5 +1,5 @@
 setup: ## シンボリックリンクを作成する
-	@bash scripts/setup.sh
+	@zsh scripts/setup.sh
 
 help: ## ヘルプを表示する
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \

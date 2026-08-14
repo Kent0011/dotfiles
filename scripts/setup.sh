@@ -29,16 +29,24 @@ BREW_PACKAGES=(
   zsh-syntax-highlighting
   derailed/k9s/k9s
   awscli
-  kubernetes-cli
   hashicorp/tap/terraform
-  --cask font-jetbrains-mono-nerd-font
-  --cask google-cloud-sdk
+)
+CASK_PACKAGES=(
+  font-jetbrains-mono-nerd-font
+  google-cloud-sdk
 )
 for pkg in "${BREW_PACKAGES[@]}"; do
   if brew list "$pkg" &>/dev/null; then
     echo "  already installed: $pkg"
   else
     brew install "$pkg"
+  fi
+done
+for pkg in "${CASK_PACKAGES[@]}"; do
+  if brew list --cask "$pkg" &>/dev/null; then
+    echo "  already installed: $pkg"
+  else
+    brew install --cask "$pkg"
   fi
 done
 echo ""
