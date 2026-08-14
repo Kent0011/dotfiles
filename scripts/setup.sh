@@ -24,12 +24,15 @@ echo ""
 echo "[homebrew]"
 BREW_PACKAGES=(
   gh
-  lazygit
   starship
   zsh-autosuggestions
   zsh-syntax-highlighting
   derailed/k9s/k9s
+  awscli
+  kubernetes-cli
+  hashicorp/tap/terraform
   --cask font-jetbrains-mono-nerd-font
+  --cask google-cloud-sdk
 )
 for pkg in "${BREW_PACKAGES[@]}"; do
   if brew list "$pkg" &>/dev/null; then
