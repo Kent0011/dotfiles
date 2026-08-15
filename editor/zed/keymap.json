@@ -33,6 +33,11 @@
   },
   {
     "bindings": {
+      "cmd-shift-g": "git::DiffBranch"
+    }
+  },
+  {
+    "bindings": {
       "alt-shift-r": "workspace::Reload",
     },
   },
