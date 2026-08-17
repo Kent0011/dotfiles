@@ -37,3 +37,25 @@ export PATH="$HOME/.local/bin:$PATH"
 ## Command auto-completion
 autoload -Uz compinit
 compinit
+
+## Alias
+alias g="git"
+alias gb="git branch"
+alias gc="git checkout"
+alias gcb="git checkout -b"
+alias gp="git pull"
+
+alias c="claude"
+
+alias d="docker"
+alias d-c="docker compose"
+alias dup="docker compose up"
+alias ddown="docker compose down"
+alias dps="docker compose ps"
+alias dbuild="docker compose build"
+
+alias k="kubectl"
+alias tf="terraform"
+alias m="make"
+alias pubkey="cat ~/.ssh/id_ed25519.pub"
+alias a="alias"
