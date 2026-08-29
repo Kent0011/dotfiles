@@ -71,7 +71,7 @@
   },
   {
     "bindings": {
-      "cmd-`": "workspace::NewCenterTerminal",
+      "cmd-`": "multi_workspace::ToggleWorkspaceSidebar",
     },
   },
   {

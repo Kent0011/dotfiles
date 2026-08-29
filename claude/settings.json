@@ -62,5 +62,6 @@
   "theme": "dark",
   "showTurnDuration": true,
   "terminalProgressBarEnabled": true,
-  "autoConnectIde": true
+  "autoConnectIde": true,
+  "agentPushNotifEnabled": true
 }
