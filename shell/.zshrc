@@ -72,6 +72,3 @@ alias tf="terraform"
 alias m="make"
 alias pubkey="cat ~/.ssh/id_ed25519.pub"
 alias a="alias"
-
-## kubectl completion
-source <(kubectl completion zsh)
