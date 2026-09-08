@@ -48,7 +48,6 @@ if [ -f '/Users/s33785/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/s33785/g
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/s33785/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/s33785/google-cloud-sdk/completion.zsh.inc'; fi
 
-eval "$(nodenv init -)"
 export PATH="$HOME/go/bin:$PATH"
 
 ## Alias
