@@ -37,18 +37,11 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/share/google-cloud-sdk/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
 
 ## Command auto-completion
 autoload -Uz compinit
 compinit
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/s33785/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/s33785/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/s33785/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/s33785/google-cloud-sdk/completion.zsh.inc'; fi
-
-export PATH="$HOME/go/bin:$PATH"
 
 ## Alias
 alias g="git"
