@@ -35,7 +35,9 @@
     },
   },
   "agent": {
-    "sidebar_side": "left",
+    "threads_sidebar": {
+      "position": "right"
+    },
     "dock": "right",
     "use_modifier_to_send": true,
   },
